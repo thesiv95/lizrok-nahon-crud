@@ -1,0 +1,13 @@
+node_modules/
+dist/
+logs/
+.env
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# some irrelevant data for now
+jsons/users.json
+data/admins.json
